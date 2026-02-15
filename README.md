@@ -10,28 +10,29 @@ User → CloudFront (CDN) → Private S3 Bucket
 
 ## AWS Services Used
 
-- Amazon S3 — Storage for static website files  
-- Amazon CloudFront — Content Delivery Network (CDN)  
-- IAM — Access control and permissions  
+- Amazon S3 — Storage for static website files.  
+- Amazon CloudFront — Content Delivery Network (CDN).  
+- IAM — Access control and permissions.  
 
 ## Implementation Steps
 
-1. Created an Amazon S3 bucket  
-2. Uploaded static website files (HTML, CSS, JS)  
-3. Enabled Block Public Access to keep the bucket private  
-4. Created a CloudFront distribution  
-5. Configured S3 bucket as the origin  
-6. Granted CloudFront secure access to the bucket  
-7. Deployed the distribution  
-8. Accessed the website via CloudFront URL  
+1. Created an Amazon S3 bucket.  
+2. Uploaded static website files (HTML, CSS, JS).  
+3. Enabled Block Public Access to keep the bucket private.
+4. Tried to access the bucket over internet that was denied due to privacy settings. 
+5. Created a CloudFront distribution.  
+6. Configured S3 bucket as the origin.  
+7. Granted CloudFront secure access to the bucket.  
+8. Deployed the distribution.  
+9. Accessed the website via CloudFront URL.  
 
 ## Key Learnings
 
-- Secure static website hosting on AWS  
-- Difference between public and private S3 buckets  
-- CDN concepts and edge locations  
-- AWS service integration  
-- Real-world cloud security practices  
+- Secure static website hosting on AWS.  
+- Difference between public and private S3 buckets.  
+- CDN concepts and edge locations.  
+- AWS service integration.  
+- Real-world cloud security practices.  
 
 ## Project Outcome
 
